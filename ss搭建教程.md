@@ -5,7 +5,7 @@ https://education.github.com/pack/offers#digitalocean
 
     2. 注册Vultr（性价比高，界面清爽）
     打开以下链接地址。使用下面的地址进入注册界面有20美元（有效期一年）的新用户奖励！！
-  https://www.vultr.com/?ref=7096028
+  https://www.vultr.com/?ref=7249974
     进入网站后，输入注册邮箱及注册密码，点sign up。
 
 
