@@ -10,18 +10,18 @@
     1. wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
     2. chmod +x shadowsocks.sh
     3. ./shadowsocks.sh 2>&1 | tee shadowsocks.log
-        > 中间会提示你输入你的SS SERVER的账号，和端口。不输入就是默认。跑完命令后会出来你的SS客户端的信息。</br>
-        请立即copy下来加以保存。</br>
-        上面的命令全部回车执行后，如果没有报错，即为执行成功，出现确认提示的时候，输入 y 后，回车即可。</br>
-        安装完成后，脚本提示如下：</br>
-        Congratulations, shadowsocks install completed!</br>
-        Your Server IP:your_server_ip</br>
-        Your Server Port:your_server_port</br>
-        Your Password:your_password</br>
-        Your Local IP:127.0.0.1</br>
-        Your Local Port:1080</br>
-        Your Encryption Method:aes-v256-cfb </br>
-        保存后关闭</br>
+        > 中间会提示你输入你的SS SERVER的账号，和端口。不输入就是默认。跑完命令后会出来你的SS客户端的信息。
+        请立即copy下来加以保存。
+        上面的命令全部回车执行后，如果没有报错，即为执行成功，出现确认提示的时候，输入 y 后，回车即可。
+        安装完成后，脚本提示如下：
+        Congratulations, shadowsocks install completed!
+        Your Server IP:your_server_ip
+        Your Server Port:your_server_port
+        Your Password:your_password
+        Your Local IP:127.0.0.1
+        Your Local Port:1080
+        Your Encryption Method:aes-v256-cfb 
+        保存后关闭
 6. 安装SSR加速(centOS 7)
     1. yum --enablerepo=elrepo-kernel -y install kernel-ml kernel-ml-devel
     2. grub2-set-default 0
@@ -31,7 +31,3 @@
     5. ./bbr.sh
     6. uname -r ;检查内核版本:含有4.13表示ok
     7. lsmod | grep bbr ;返回值包括 tcp_bbr 模块即说明bbr已启动。
-
-
-
-
