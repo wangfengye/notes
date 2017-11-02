@@ -7,7 +7,7 @@
 3. 充值与配置主机
 4. xshell连接主机
 5. 部署ss服务
-  1. wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
+    1. wget --no-check-certificate https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks.sh
   2. chmod +x shadowsocks.sh
   3. ./shadowsocks.sh 2>&1 | tee shadowsocks.log
     >中间会提示你输入你的SS SERVER的账号，和端口。不输入就是默认。跑完命令后会出来你的SS客户端的信   息。
