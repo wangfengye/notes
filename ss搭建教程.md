@@ -31,3 +31,6 @@
     5. ./bbr.sh
     6. uname -r ;检查内核版本:含有4.13表示ok
     7. lsmod | grep bbr ;返回值包括 tcp_bbr 模块即说明bbr已启动。
+7. 客户端工具 shadowSocks
+    1. [windows]('./assets/Shadowsocks-4.0.5.zip')
+    2. [android]('./assets/shadowsocks-nightly-4.2.5.apk')
