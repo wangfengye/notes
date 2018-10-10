@@ -15,12 +15,11 @@
  
  ### 常见问题
  1. 选择安装分区时,提示无法安装,选中磁盘为MBR分区,window只能安装到GPT磁盘
-![](./images/962108-b0ace4d5d4cac2ac.webp)
-
- A: 1.`Shift+F10`调出命令行
-	2. diskpark(启动Diskpart程序)
-	3. list disk(查看所有磁盘)
-	3. select disk=0(选择第0个磁盘)
-	4. clean (清除磁盘分区信息)
-	5. convert gpt (设置GPT分区)
-	#WF1314gh#
+![](./images/962108-b0ace4d5d4cac2ac.webp)</br>
+解决方案:
+ 1.`Shift+F10`调出命令行
+ 2. diskpark(启动Diskpart程序)
+ 3. list disk(查看所有磁盘)
+ 4. select disk=0(选择第0个磁盘)
+ 5. clean (清除磁盘分区信息)
+ 6. convert gpt (设置GPT分区)
