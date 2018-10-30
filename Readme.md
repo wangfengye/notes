@@ -7,3 +7,6 @@
 
 ## JAVA问题
 1. [StringBuilder优化](./java/StringBuilder.md)
+
+## Android问题
+1.[android打包异常: Could not resolve all dependencies for configuration](./android/android打包异常Could not resolve all dependencies for configuration.md)
